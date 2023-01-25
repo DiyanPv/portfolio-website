@@ -1,3 +1,10 @@
-export const Projects = {
-    
-}
+
+export const Projects: any[] = [
+    {
+      name: `Verius`,
+      image: "",
+      description: "",
+      imageBackgroundColor: `black`,
+    },
+  ];
+  
