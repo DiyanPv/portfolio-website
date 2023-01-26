@@ -14,12 +14,12 @@ body {
 }
 
 .fadeLeftMini {
-  animation: fadeLeftMini 1s;
+  animation: fadeLeftMini 2s;
   animation-fill-mode: both;
 }
 
 .fadeRightMini {
-  animation: fadeRightMini 1s;
+  animation: fadeRightMini 2s;
   animation-fill-mode: both;
 }
 
@@ -43,4 +43,25 @@ body {
     opacity: 1;
     transform: translateZ(0);
   }
+}
+
+
+@keyframes fadeTopInfinite {
+  0% {
+    opacity: 0;
+    transform: translateY(4.1rem);
+  }
+  50% {
+    opacity: 0.4;
+
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fadeTopInfinite {
+  animation: fadeTopInfinite 1.5s;
+  animation-fill-mode: both;
 }

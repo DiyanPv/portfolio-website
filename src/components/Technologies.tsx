@@ -1,18 +1,18 @@
 import { TechnologiesCard } from "./TechnologiesCard";
 import { Technologies } from "../data/Technologies";
-
+import { useState, ChangeEvent } from "react";
 export const TechnologiesComponent = () => {
+  const [isNameShown, setisNameShown] = useState(false);
+
   return (
     <div>
-      <div className=" absolute lg:bottom-56 lg:w-full md:bottom-64 flex items-center justify-center text-slate-600 font-mono text-2xl">
+      <div className=" absolute lg:bottom-60 lg:w-full md:bottom-56 flex items-center justify-center text-slate-700 font-serif text-4xl md:text-2xl fadeTopInfinite font-bold">
         Tech Stack
       </div>
-      <div className="border-t-2 border-gray-600 pt-4 absolute lg:bottom-48 lg:w-full md:bottom-60 flex items-center justify-center text-slate-600 font-mono text-2xl">
-
-      </div>
-      <div className="flex fadeRightMini lg:flex-row flex-wrap w-full items-center justify-center absolute bottom-0 pb-16 pt-10 object-fit ">
+      <div className="bg-gradient-to-r from-gray-100 to-gray-600 h-1 mb-2 absolute lg:bottom-52 lg:w-full md:bottom-56 flex items-center justify-center text-slate-600 font-mono text-2xl"></div>
+      <div className="flex fadeRightMini lg:flex-row flex-wrap w-full items-center justify-center absolute bottom-0 lg:pb-20 md:pb-12 ">
         {Technologies.map((el) => {
-          return <TechnologiesCard image={el.image} />;
+          return <TechnologiesCard name={el.name} key={el.name} image={el.image} setisNameShown={setisNameShown} isNameShown={isNameShown}/>;
         })}
       </div>
     </div>

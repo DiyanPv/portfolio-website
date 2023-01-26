@@ -1,7 +1,7 @@
 import { index } from "../assets/index.js";
 export const Technologies: any[] = [
   {
-    name: `TailwindCSS`,
+    name: `Tailwind`,
     image: index.tailwind,
   },
 
@@ -13,13 +13,13 @@ export const Technologies: any[] = [
     name: `Firebase`,
     image: index.firebase,
   },
-  { image: index.chakraui },
+  { image: index.chakraui, name: `ChakraUI` },
   {
     name: `NodeJS`,
     image: index.NodeJS,
   },
   {
-    name: `Sql`,
+    name: `MySql`,
     image: index.sql,
   },
   {
