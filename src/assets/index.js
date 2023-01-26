@@ -19,7 +19,6 @@ export const index = {
   banner03,
   css,
   primereact,
-
   ethers,
   chakraui,
   firebase,

@@ -1,4 +1,4 @@
 export const styles = {
 
-  cardElement: `border-2 rounded-3xl sm:w-44 sm:h-44 md:w-52 md:h-52 h-56 w-56 border-gray-400/50 flex flex-col ml-4 mr-4 justify-center items-center mt-10`,
+  cardElement: `border-2 rounded-3xl sm:w-52 sm:h-52 md:w-1/4 md:h-1/4 h-72 w-1/4 border-gray-400/50 flex flex-col ml-4 mr-4 justify-between items-center mt-10`,
 };
