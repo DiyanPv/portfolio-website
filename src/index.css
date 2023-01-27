@@ -7,10 +7,20 @@ html {
 }
 body {
   min-height: 100%;
+  background: rgb(71,71,71);
+  background: linear-gradient(90deg, rgba(71,71,71,0.7567401960784313) 0%, rgba(235,235,235,1) 100%);
 }
 
 #root {
   height: 100%;
+
+}
+.wrapper {
+  overflow-y: auto;
+  height: 100vh;
+  overflow-x: hidden;
+  perspective: 10px;
+  transform: translateZ(-10px);
 }
 
 .fadeLeftMini {
@@ -45,7 +55,6 @@ body {
   }
 }
 
-
 @keyframes fadeTopInfinite {
   0% {
     opacity: 0;
@@ -53,7 +62,6 @@ body {
   }
   50% {
     opacity: 0.4;
-
   }
   100% {
     opacity: 1;
@@ -64,4 +72,30 @@ body {
 .fadeTopInfinite {
   animation: fadeTopInfinite 1.5s;
   animation-fill-mode: both;
+}
+
+@keyframes fadeTopMini {
+  0% {
+    opacity: 0;
+    transform: translateY(3.1rem);
+  }
+  50% {
+    opacity: 0.4;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-0.3rem);
+  }
+}
+
+.fadeTopMini {
+  animation: fadeTopMini 2s;
+  animation-fill-mode: both;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
 }

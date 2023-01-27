@@ -26,6 +26,7 @@ export const Technologies: any[] = [
     name: `MongoDB`,
     image: index.mongodb,
   },
+  { name: `Hardhat`, image: index.hardhat },
 
   {
     name: `Solidity`,

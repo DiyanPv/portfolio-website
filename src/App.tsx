@@ -1,17 +1,21 @@
 import React from "react";
 import "./App.css";
-import {ProjectCards} from "./components/Cards";
+import { BasicWrapper } from "./components/BasicWrapper";
+import { ProjectCards } from "./components/Cards";
 import { Content } from "./components/Content";
 import { Header } from "./components/Header";
 import { TechnologiesComponent } from "./components/Technologies";
-
+const scrollr = require(`scrollr`);
 function App() {
+  console.log(scrollr);
   return (
-    <div className="bg-gradient-to-r from-gray-600 to-white-100 w-full h-full">
+    <div className="wrapper">
       <Header />
       <Content />
+      <TechnologiesComponent />
       <ProjectCards />
-      <TechnologiesComponent/>
+      <Content />
+      <BasicWrapper />
     </div>
   );
 }

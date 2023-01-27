@@ -3,14 +3,27 @@ import { CgMail } from "react-icons/cg";
 import { IoLogoGithub } from "react-icons/io";
 
 export const Content = () => {
+
+    console.log(`lele`);
+
+
   return (
-    <div className="flex flex-col justify-center w-full lg:w-full h-screen items-center flex-wrap">
+    <div
+      className="flex flex-col justify-center w-full lg:w-full h-screen items-center flex-wrap container"
+      id="mainPage"
+    >
       <div className="p-16 fadeLeftMini">
-        <div className="font-bold drop-shadow-4xl fadeRightMini text-white lg:text-6xl md:text-3xl font-family: 'Bebas Neue'">
+        <div
+          id="text"
+          className="font-bold drop-shadow-4xl fadeRightMini text-white lg:text-6xl md:text-3xl font-family: 'Bebas Neue'"
+          style={{ textShadow: "4px 3px 7px #000" }}
+        >
           Diyan's Portfolio
         </div>
         <div className="border-b-2 border-slate-400 pt-4 "></div>
-        <div className="text-gray-700 lg:text-xl md:text-sm sm:text-xs flex justify-center items-center font-semibold">
+        <div
+          className={`text-gray-700 lg:text-xl md:text-sm sm:text-xs flex justify-center items-center font-semibold `}
+        >
           React Web Developer | Fullstack
         </div>
         <div className="flex flex-row justify-center mt-2">

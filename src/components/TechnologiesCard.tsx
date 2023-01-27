@@ -7,21 +7,24 @@ export const TechnologiesCard = ({
   name,
 }: ITechnologiesCard) => {
   const onEnter = () => {
-    setisNameShown(true);
-    setTimeout(() => {
-      setisNameShown(false);
-    }, 3000);
+    setisNameShown(!isNameShown);
+   
   };
 
+
+
   return (
-    <div onMouseEnter={() => onEnter()}>
+    <div onClick={() => onEnter()}>
       <div
-        className={`lg:w-14 lg:h-14 md:w-8 md:h-10 ml-4 mr-4 mt-4 items-center flex flex-col`}
+        className={`lg:w-14 lg:h-14 md:w-8 md:h-10 lg:mt-10 ml-4 mr-4 md:mt-10 md:ml-6 md:mr-6 sm:mt-4 items-center flex flex-col`}
       >
-        {isNameShown ? <div className="font-serif text-sm font-bold">{name}</div> : ``}
+        {isNameShown ? (
+          <div className="font-serif text-sm font-bold fadeTopMini sm:text-xs">{name}</div>
+        ) : (
+          ``
+        )}
 
         <img src={image} className="hover:cursor-pointer w-full h-full" />
-        
       </div>
     </div>
   );

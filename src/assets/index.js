@@ -14,8 +14,10 @@ import tailwind from "./tailwind.svg";
 import chakraui from "./chakraui.svg";
 import Typescript from "./Typescript.svg";
 import primereact from "./primereact.png";
+import hardhat from "./hardhat.svg";
 export const index = {
   banner,
+  hardhat,
   banner03,
   css,
   primereact,
