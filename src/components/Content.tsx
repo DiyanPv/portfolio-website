@@ -1,17 +1,17 @@
 import { IoLogoLinkedin } from "react-icons/io";
 import { CgMail } from "react-icons/cg";
 import { IoLogoGithub } from "react-icons/io";
-
+import { TechnologiesComponent } from "./Technologies";
 export const Content = () => {
 
 
 
   return (
     <div
-      className="flex flex-col justify-center w-full lg:w-full h-screen items-center flex-wrap container"
+      className="flex flex-col justify-around w-full h-screen items-center container"
       id="mainPage"
     >
-      <div className="p-16 fadeLeftMini">
+      <div className="p-16 fadeLeftMini flex flex-col justify-center align-center pt-20">
         <div
           id="text"
           className="font-bold drop-shadow-4xl fadeRightMini text-white lg:text-6xl md:text-3xl font-family: 'Bebas Neue'"
@@ -40,6 +40,7 @@ export const Content = () => {
           </a>
         </div>
       </div>
+      <TechnologiesComponent/>
     </div>
   );
 };

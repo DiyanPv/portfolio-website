@@ -10,7 +10,7 @@ function App() {
     <div>
       <Header />
       <Content />
-      <TechnologiesComponent />
+      {/* <TechnologiesComponent /> */}
       <ProjectCards />
       <Content />
       <BasicWrapper />

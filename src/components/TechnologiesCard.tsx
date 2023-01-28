@@ -16,7 +16,7 @@ export const TechnologiesCard = ({
   return (
     <div onClick={() => onEnter()}>
       <div
-        className={`lg:w-14 lg:h-14 md:w-8 md:h-10 lg:mt-10 ml-4 mr-4 md:mt-10 md:ml-6 md:mr-6 sm:mt-4 items-center flex flex-col`}
+        className={`lg:w-12 lg:h-12 sm:w-12 sm:h-12 md:w-8 md:h-10 lg:mt-6 ml-4 mr-4 md:mt-10 md:ml-6 md:mr-6 sm:mt-4 items-center flex flex-col`}
       >
         {isNameShown ? (
           <div className="font-serif text-sm font-bold fadeTopMini sm:text-xs text-zinc-300">{name}</div>
