@@ -4,7 +4,6 @@ import { IoLogoGithub } from "react-icons/io";
 
 export const Content = () => {
 
-    console.log(`lele`);
 
 
   return (

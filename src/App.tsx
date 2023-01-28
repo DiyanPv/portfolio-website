@@ -5,11 +5,9 @@ import { ProjectCards } from "./components/Cards";
 import { Content } from "./components/Content";
 import { Header } from "./components/Header";
 import { TechnologiesComponent } from "./components/Technologies";
-const scrollr = require(`scrollr`);
 function App() {
-  console.log(scrollr);
   return (
-    <div className="wrapper">
+    <div>
       <Header />
       <Content />
       <TechnologiesComponent />
