@@ -42,7 +42,7 @@ export const ProjectCard = ({
             ``
           )}
           {sourceCode ? (
-            <a href={sourceCode} className="cursor-pointer text-center hover:text-white hover:bg-slate-900 w-full flex flex-row align-center justify-center">
+            <a href={sourceCode} target="_blank" className="cursor-pointer text-center hover:text-white hover:bg-slate-900 w-full flex flex-row align-center justify-center">
             <div className="cursor-pointer text-center hover:text-white hover:bg-slate-900 w-full flex flex-row align-center justify-center">
               <AiOutlineGithub className="my-auto" /> Source Code
             </div>

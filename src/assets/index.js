@@ -15,10 +15,12 @@ import chakraui from "./chakraui.svg";
 import Typescript from "./Typescript.svg";
 import primereact from "./primereact.png";
 import hardhat from "./hardhat.svg";
+import wavybg from "./dian7.jpg";
 export const index = {
   banner,
   hardhat,
   banner03,
+  wavybg,
   css,
   primereact,
   ethers,

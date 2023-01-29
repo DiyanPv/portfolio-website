@@ -8,7 +8,7 @@ export const Content = () => {
 
   return (
     <div
-      className="flex flex-col justify-around w-full h-screen items-center container"
+      className="flex flex-col justify-around w-full h-screen items-center"
       id="mainPage"
     >
       <div className="p-16 fadeLeftMini flex flex-col justify-center align-center pt-20">

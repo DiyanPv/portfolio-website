@@ -13,7 +13,7 @@ function App() {
 
       <ProjectCards />
 
-      <BasicWrapper />
+    
     </div>
   );
 }
