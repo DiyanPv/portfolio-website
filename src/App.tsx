@@ -10,9 +10,9 @@ function App() {
     <div>
       <Header />
       <Content />
-      {/* <TechnologiesComponent /> */}
+
       <ProjectCards />
-      <Content />
+
       <BasicWrapper />
     </div>
   );

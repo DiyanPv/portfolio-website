@@ -7,7 +7,7 @@ export const TechnologiesComponent = () => {
   return (
     <div className="relative flex justify-between flex-col">
       <div
-        className="flex items-center justify-center text-slate-900 font-serif text-4xl md:text-2xl fadeTopInfinite font-bold"
+        className="flex items-center justify-center text-slate-900 font-serif text-3xl md:text-2xl fadeTopInfinite font-bold"
         style={{ textShadow: "1px 1px 2px rgb(220,240,255)" }}
       >
         Tech Stack

@@ -11,8 +11,8 @@ export const ProjectCards = () => {
         {Projects.map((el) => {
           return (
             <ProjectCard
-              liveDemo={true}
-              sourceCode={true}
+              liveDemo={el.liveDemo}
+              sourceCode={el.sourceCode}
               image={el.image}
               projectName={el.name}
               createDate={el.date}

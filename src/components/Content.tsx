@@ -14,14 +14,14 @@ export const Content = () => {
       <div className="p-16 fadeLeftMini flex flex-col justify-center align-center pt-20">
         <div
           id="text"
-          className="font-bold drop-shadow-4xl fadeRightMini text-white lg:text-6xl md:text-3xl font-family: 'Bebas Neue'"
+          className="font-bold drop-shadow-4xl fadeRightMini text-white lg:text-5xl md:text-3xl font-family: 'Bebas Neue'"
           style={{ textShadow: "4px 3px 7px #000" }}
         >
           Diyan's Portfolio
         </div>
         <div className="border-b-2 border-slate-400 pt-4 "></div>
         <div
-          className={`text-gray-700 lg:text-xl md:text-sm sm:text-xs flex justify-center items-center font-semibold `}
+          className={`text-gray-700 lg:text-base md:text-sm sm:text-xs flex justify-center items-center font-semibold `}
         >
           React Web Developer | Fullstack
         </div>
