@@ -1,6 +1,5 @@
 import { IProjectCard } from "../../interfaces/IProjectCard";
 import { styles } from "../../styles/styles";
-import { Technologies } from "../../data/Technologies";
 import { AiOutlineGithub } from "react-icons/ai";
 import { BsPlayFill } from "react-icons/bs";
 export const ProjectCard = ({

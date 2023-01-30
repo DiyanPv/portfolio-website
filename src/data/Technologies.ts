@@ -40,6 +40,10 @@ export const Technologies: any[] = [
     name: `React`,
     image: index.React,
   },
+  {
+    name: `NextJS`,
+    image: index.nextjs,
+  },
 
   {
     name: `Javascript`,

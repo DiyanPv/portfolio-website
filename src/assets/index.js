@@ -16,6 +16,7 @@ import Typescript from "./Typescript.svg";
 import primereact from "./primereact.png";
 import hardhat from "./hardhat.svg";
 import wavybg from "./dian7.jpg";
+import nextjs from "./nextjs.svg";
 export const index = {
   banner,
   hardhat,
@@ -35,4 +36,5 @@ export const index = {
   sql,
   tailwind,
   Typescript,
+  nextjs,
 };

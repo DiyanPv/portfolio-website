@@ -21,7 +21,7 @@ export const Content = () => {
         </div>
         <div className="border-b-2 border-slate-400 pt-4 "></div>
         <div
-          className={`text-gray-700 lg:text-base md:text-sm sm:text-xs flex justify-center items-center font-semibold `}
+          className={`text-gray-300 lg:text-base md:text-sm sm:text-xs flex justify-center items-center font-semibold `}
         >
           React Web Developer | Fullstack
         </div>
