@@ -34,7 +34,7 @@ export const CertificationCards = () => {
     <BasicWrapper pageTitle="Certifications">
     <div className="flex flex-row flex-wrap items-center justify-center pt-24 h-fit">
       {Certifications.map((certificate) => (
-        <CertificationCard name={certificate.name} />
+        <CertificationCard name={certificate.name} img={certificate.img}/>
       ))}
     </div>
     </BasicWrapper>

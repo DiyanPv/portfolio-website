@@ -1,3 +1,4 @@
 export interface ICertificateCard {
-    name: string;
+  name: string;
+  img: string;
 }
