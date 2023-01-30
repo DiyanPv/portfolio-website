@@ -33,7 +33,7 @@ export const ProjectCard = ({
         <div className="flex flex-row justify-between w-full bg-slate-300">
           {liveDemo ? (
             <a href={liveDemo} target="_blank" className="cursor-pointer hover:text-white hover:bg-slate-900 w-full text-center align-center justify-center flex">
-              <div className="cursor-pointer hover:text-white hover:bg-slate-900 w-full text-center align-center justify-center flex">
+              <div className="cursor-pointer hover:text-white hover:bg-zinc-600 w-full text-center align-center justify-center flex">
                 <BsPlayFill className="my-auto" />
                 Live Demo
               </div>
@@ -43,7 +43,7 @@ export const ProjectCard = ({
           )}
           {sourceCode ? (
             <a href={sourceCode} target="_blank" className="cursor-pointer text-center hover:text-white hover:bg-slate-900 w-full flex flex-row align-center justify-center">
-            <div className="cursor-pointer text-center hover:text-white hover:bg-slate-900 w-full flex flex-row align-center justify-center">
+            <div className="cursor-pointer text-center hover:text-white hover:bg-zinc-600 w-full flex flex-row align-center justify-center">
               <AiOutlineGithub className="my-auto" /> Source Code
             </div>
             </a>

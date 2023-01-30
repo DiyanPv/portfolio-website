@@ -41,7 +41,7 @@ export const Projects: any[] = [
     name: `Expense Tracker`,
     image: images.expenseTracker,
     description:
-      "My second React project. This is simply an expense tracker with basic input fields like date/item/price. As soon as submitted, it logs and displays the filtered array at the bottom for the specific year selected. There is also a 12-month breakdown.",
+      "My second React project. This is simply an expense tracker with basic input fields like date/item/price. As soon as submitted, it logs and displays the filtered array at the bottom for the specific year selected. There is also a 12-month breakdown for each spending year.",
     date: "15.07.2022",
     sourceCode: `https://github.com/DiyanPv/React-Demos/tree/main/my-app`,
     liveDemo: "https://expenses-track-react.web.app/",

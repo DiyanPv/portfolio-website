@@ -170,9 +170,11 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#4d4d4d",endColorstr="#686868",GradientType=1);
   }
   .bg-certifications {
-    background-image: url("./assets/banner03.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background: rgb(236,236,236);
+    background: -moz-linear-gradient(180deg, rgba(236,236,236,1) 10%, rgba(218,222,228,1) 19%, rgba(185,188,193,1) 34%, rgba(47,47,47,0.6195728291316527) 80%);
+    background: -webkit-linear-gradient(180deg, rgba(236,236,236,1) 10%, rgba(218,222,228,1) 19%, rgba(185,188,193,1) 34%, rgba(47,47,47,0.6195728291316527) 80%);
+    background: linear-gradient(180deg, rgba(236,236,236,1) 10%, rgba(218,222,228,1) 19%, rgba(185,188,193,1) 34%, rgba(47,47,47,0.6195728291316527) 80%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ececec",endColorstr="#2f2f2f",GradientType=1);
   }
   .certificationTransition {
     height: 0.8rem;
