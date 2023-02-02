@@ -4,4 +4,5 @@ export const Certifications = [
   { name: "name", img: certificates.softuniFundamentals },
   { name: "name", img: certificates.udemyReact },
   { name: "name", img: certificates.udemyNode },
+  { name: "name", img: certificates.udemyBootcamp },
 ];
