@@ -1,4 +1,3 @@
-import React from "react";
 import { ProjectCard } from "./Cards/ProjectCard";
 import { Projects } from "../data/Projects";
 import { BasicWrapper } from "./BasicWrapper";
@@ -19,7 +18,7 @@ export const ProjectCards = () => {
         {Projects.map((el) => {
           return (
             <ProjectCard
-            key={el.image}
+              key={el.image}
               liveDemo={el.liveDemo}
               sourceCode={el.sourceCode}
               image={el.image}
@@ -37,16 +36,18 @@ export const ProjectCards = () => {
 export const CertificationCards = () => {
   return (
     <BasicWrapper pageTitle="Certifications">
-      <div className="flex flex-row flex-wrap items-center justify-center pt-24 h-fit mb-8">
+      <div className="flex flex-row flex-wrap items-center justify-center pt-24 h-fit mb-8 mt-8">
         {Certifications.map((certificate) => (
-          <CertificationCard name={certificate.name} img={certificate.img} key={certificate.img} />
+          <CertificationCard
+            name={certificate.name}
+            img={certificate.img}
+            key={certificate.img}
+          />
         ))}
       </div>
       <div className="flex flex-row justify-center lg:text-2xl md:text-lg sm:text-regular font-bold">
         <HiAcademicCap className="my-auto" />
-        <div >
-          Honorable mentions:
-        </div>
+        <div>Honorable mentions:</div>
       </div>
       <div className="flex flex-row flex-wrap justify-center mb-8">
         <HonorableCertificates
