@@ -41,6 +41,7 @@ export const CertificationCards = () => {
           <CertificationCard
             name={certificate.name}
             img={certificate.img}
+            url={certificate.url}
             key={certificate.img}
           />
         ))}
