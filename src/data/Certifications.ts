@@ -1,4 +1,5 @@
 import { certificates } from "../assets/Certificates/certificates";
+
 export const Certifications = [
   {
     name: "name",
@@ -26,4 +27,6 @@ export const Certifications = [
     url: `https://www.udemy.com/certificate/UC-47d18b9b-d8cb-4fed-ac06-2c1b61809184/`,
   },
   { name: "name", img: certificates.diyanresponsiveweb, url: `` },
+  
+  { name: "name", img: certificates.diyanfccalgorithms, url: `` },
 ];

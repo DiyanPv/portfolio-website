@@ -4,6 +4,7 @@ import udemyReact from "./udemy-react.jpg";
 import udemyNode from "./udemy-node.jpg";
 import udemyBootcamp from "./udemy-bootcamp.jpg";
 import diyanresponsiveweb from "./diyan-fcc-responsive-web.png";
+import diyanfccalgorithms from "./diyan-fcc-data-algorithms.png";
 export const certificates = {
   softuniBasics,
   softuniFundamentals,
@@ -11,4 +12,5 @@ export const certificates = {
   udemyNode,
   udemyBootcamp,
   diyanresponsiveweb,
+  diyanfccalgorithms,
 };
