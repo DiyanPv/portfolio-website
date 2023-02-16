@@ -1,9 +1,9 @@
-import { ProjectCard } from "./Cards/ProjectCard";
-import { Projects } from "../data/Projects";
-import { BasicWrapper } from "./BasicWrapper";
-import { Certifications } from "../data/Certifications";
-import { CertificationCard } from "./Cards/CertificationCard";
-import { HonorableCertificates } from "./Certifications/SingleCertificate";
+import { ProjectCard } from "../ProjectCard";
+import { Projects } from "../../../data/Projects";
+import { BasicWrapper } from "../../Wrapper/BasicWrapper";
+import { Certifications } from "../../../data/Certifications";
+import { CertificationCard } from "../CertificationCard";
+import { HonorableCertificates } from "../../Certifications/SingleCertificate";
 import { HiAcademicCap } from "react-icons/hi";
 export const ProjectCards = () => {
   const image: string = `lele`;

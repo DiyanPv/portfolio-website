@@ -1,7 +1,7 @@
 import { IoLogoLinkedin } from "react-icons/io";
 import { CgMail } from "react-icons/cg";
 import { IoLogoGithub } from "react-icons/io";
-import { TechnologiesComponent } from "./Technologies";
+import { TechnologiesComponent } from "../../Technologies/Technologies";
 export const Content = () => {
 
 

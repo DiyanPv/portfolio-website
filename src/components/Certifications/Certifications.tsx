@@ -1,4 +1,4 @@
-import { CertificationCards } from "../Cards";
+import { CertificationCards } from "../Cards/MappedCards/Cards";
 export const Certifications = () => {
   return (
     <div className="h-fit flex flex-col sm:pb-16">

@@ -1,5 +1,5 @@
-import { TechnologiesCard } from "./TechnologiesCard";
-import { Technologies } from "../data/Technologies";
+import { TechnologiesCard } from "../Cards/TechnologiesCard";
+import { Technologies } from "../../data/Technologies";
 import { useState, ChangeEvent } from "react";
 export const TechnologiesComponent = () => {
   const [isNameShown, setisNameShown] = useState(false);

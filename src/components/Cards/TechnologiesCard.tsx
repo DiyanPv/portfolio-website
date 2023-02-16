@@ -1,4 +1,4 @@
-import { ITechnologiesCard } from "../interfaces/ITechnologiesCard";
+import { ITechnologiesCard } from "../../interfaces/ITechnologiesCard";
 import { ChangeEvent } from "react";
 export const TechnologiesCard = ({
   image,
