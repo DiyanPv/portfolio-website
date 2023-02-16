@@ -17,7 +17,7 @@ export const ProjectCard = ({
           <img src={image} alt="Card" className="" />
         </div>
 
-        <div className="bg-gray-300 flex align-center text-center justify-center flex-col w-full">
+        <div className="bg-gray-300 flex align-center text-center justify-center flex-col w-full md:h-fit">
           <div className="flex align-center text-center justify-center text-3xl font-mono">
             {projectName}
           </div>
