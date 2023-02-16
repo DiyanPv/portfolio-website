@@ -4,7 +4,7 @@ export const Projects: any[] = [
     name: `Verius`,
     image: images.verius,
     description:
-      "Verius is an NFT marketplace demo product. It allows users to send networks to a pre-generated Goerli-only contract and interact with the Giphy API to generate automatic images, which are shown at the bottom.",
+      "Verius is an NFT marketplace demo product. It allows users to send networks to a pre-generated Goerli-only contract and interact with the Giphy API to generate an array of images, which are shown at the bottom. Has a mock login/different navigation pages are a work in progress.",
     date: "28.12.2022",
     sourceCode: `https://github.com/DiyanPv/VERIUS-Marketplace`,
     liveDemo: "https://verius-web3.vercel.app/",
@@ -22,7 +22,7 @@ export const Projects: any[] = [
     name: `Food Stop`,
     image: images.reactfood,
     description:
-      "Food Stop is one of my first React Projects. It utilizes Firebase as a store of order data and stores context data using the React context API instead of Redux.",
+      "One of my first React Projects. It utilizes Firebase as a store of order data and stores context data using the React context API instead of Redux. Persistent data in context to be added via requests to firebase at every page open.",
     date: "02.11.2022",
     sourceCode: `https://github.com/DiyanPv/React-Demos/tree/main/ReactFood`,
     liveDemo: "https://diyan-test.web.app/",
