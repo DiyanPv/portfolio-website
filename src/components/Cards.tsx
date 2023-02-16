@@ -64,7 +64,7 @@ export const CertificationCards = () => {
           link="https://github.com/DiyanPv/HTML-CSS-SoftUni"
         />
         <HonorableCertificates
-          name={`Patrick Collins 32 hour Solidity Course`}
+          name={`Patrick Collins - Solidity Course`}
           link="https://github.com/DiyanPv/Lottery-Blitz"
         />
       </div>

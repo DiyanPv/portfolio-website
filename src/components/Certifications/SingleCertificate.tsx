@@ -3,7 +3,7 @@ import { IHonorableCertificate } from "../../interfaces/IHonorableCertificate";
 export const HonorableCertificates = (props: IHonorableCertificate) => {
   return (
     <div
-      className={`${styles.certificates} overflow-hidden cursor-pointer py-3 text-white px-1 justify-center align-center`}
+      className={`${styles.certificates} overflow-hidden cursor-pointer py-4 px-4 text-white px-1 justify-center align-center`}
       style={{textShadow: "4px 3px 7px #000"}}
     >
       <a href={props.link} target="_blank">
