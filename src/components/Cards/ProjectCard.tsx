@@ -25,7 +25,7 @@ export const ProjectCard = ({
             {createDate}
           </div>
           <div className="border-b-2 border-slate-100 pt-2 mb-4 w-[65%] m-auto"></div>
-          <div className="font-sans text-sm leading-4 text-black h-28 ml-4 mr-4 md:h-fit"   style={{ textShadow: "1px 1px 2px #999"}}>
+          <div className="font-sans text-sm leading-4 text-black h-28 ml-4 mr-4 2xl:h-fit"   style={{ textShadow: "1px 1px 2px #999"}}>
             {description}
           </div>
         </div>
