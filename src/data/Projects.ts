@@ -46,4 +46,13 @@ export const Projects: any[] = [
     sourceCode: `https://github.com/DiyanPv/React-Demos/tree/main/my-app`,
     liveDemo: "https://expenses-track-react.web.app/",
   },
+  {
+    name: `Krypt`,
+    image: images.krypt,
+    description:
+      "A fetching service that uses the CryptoCompare library to fetch data from different exchanges dynamically. Users can also sort the prices in ascending/descending order and can also fetch data by going to www.url.com/{cryptoPair} and www.url.com/{cryptoPair}/details",
+    date: "27.02.2023",
+    sourceCode: `https://github.com/DiyanPv/nexo-fe-task`,
+    liveDemo: "https://nexo-fe-task.vercel.app/",
+  },
 ];
