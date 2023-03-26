@@ -11,8 +11,8 @@ const Home = () => {
     <div>
       <Header />
       <Content />
-      {/* <ProjectCards />
-      <Certifications /> */}
+      <ProjectCards />
+      <Certifications />
     </div>
   );
 };
