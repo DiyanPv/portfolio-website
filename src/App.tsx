@@ -20,6 +20,8 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
+      <Route path="/projects" element={<Home />} />
+      <Route path="/certificates" element={<Home />} />
     </Routes>
   );
 }
