@@ -19,10 +19,10 @@ export const Header = () => {
     );
   };
   return (
-    <div className="flex pt-4 text-white items-center sticky top-0 ">
+    <div className="flex mt-4 text-white items-center sticky top-0 ">
       <div className="flex grow"></div>
       <nav className=" grow ">
-        {/* <ul className="flex flex-row justify-around">
+        <ul className="flex flex-row justify-around">
           <CustomLink
             to={"/"}
             activeStyle={{ color: "black", fontSize: `large` }}
@@ -44,7 +44,7 @@ export const Header = () => {
           >
             Certificates
           </CustomLink>
-        </ul> */}
+        </ul>
       </nav>
     </div>
   );
