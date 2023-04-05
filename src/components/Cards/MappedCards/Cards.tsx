@@ -14,7 +14,7 @@ export const ProjectCards = () => {
       bgImage={true}
       isProjects={true}
     >
-      <div className="flex flex-row flex-wrap items-center justify-center pt-16 h-fit">
+      <div className="flex flex-row flex-wrap items-center justify-center pt-16 mb-16 h-fit">
         {Projects.map((el) => {
           return (
             <ProjectCard

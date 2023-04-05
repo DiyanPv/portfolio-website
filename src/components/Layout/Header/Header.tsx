@@ -19,7 +19,7 @@ export const Header = () => {
     );
   };
   return (
-    <div className="flex mt-4 text-white items-center sticky top-0 ">
+    <div className="flex pt-2 text-white items-center sticky top-0 z-50 bg-gray-800 pb-2">
       <div className="flex grow"></div>
       <nav className=" grow ">
         <ul className="flex flex-row justify-around">
