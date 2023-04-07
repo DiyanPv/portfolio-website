@@ -3,15 +3,12 @@ import { CgMail } from "react-icons/cg";
 import { IoLogoGithub } from "react-icons/io";
 import { TechnologiesComponent } from "../../Technologies/Technologies";
 export const Content = () => {
-
-
-
   return (
     <div
-      className="flex flex-col justify-around w-full h-screen items-center"
+      className="flex flex-col justify-around w-full h-screen items-center my-0 mx-0 px-0 py-0" 
       id="mainPage"
     >
-      <div className="p-16 fadeLeftMini flex flex-col justify-center align-center pt-20">
+      <div className="p-16 fadeLeftMini flex flex-col justify-center align-center">
         <div
           id="text"
           className="font-bold drop-shadow-4xl fadeRightMini text-white lg:text-5xl md:text-3xl font-family: 'Bebas Neue'"
@@ -40,7 +37,7 @@ export const Content = () => {
           </a>
         </div>
       </div>
-      <TechnologiesComponent/>
+      <TechnologiesComponent />
     </div>
   );
 };
