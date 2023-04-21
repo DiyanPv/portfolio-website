@@ -64,30 +64,33 @@ export const Header = () => {
         {isNavOpen ? <MiniNav /> : <HiMenuAlt4 fontSize={32} />}
       </div>
 
-      <div className="flex pt-2 text-white items-center fixed top-0 z-50 bg-gray-800 pb-2 navbar w-full">
-        <div className="flex grow"></div>
-        <nav className=" grow font-bold">
+      <div className="flex pt-2 text-black items-center fixed top-0 z-50 bg-gray-800 pb-2 navbar w-full">
+        <div className="flex grow font-bold ml-10 ">
+          <CustomLink to={"/"} activeStyle={{ color: "white" }}>
+            Home
+          </CustomLink>
+        </div>
+
+        <nav className=" grow font-bold ">
           <ul className="flex flex-row justify-around">
-            <CustomLink
-              to={"/"}
-              activeStyle={{ color: "black", fontSize: `large` }}
-            >
-              Home
-            </CustomLink>
-            <CustomLink
-              to={"/projects"}
-              activeStyle={{ color: "black", fontSize: `large` }}
-            >
+            <CustomLink to={"/projects"} activeStyle={{ color: "white" }}>
               Projects
             </CustomLink>
             <CustomLink
               to={"/certificates"}
               activeStyle={{
-                color: "black",
-                fontSize: `large`,
+                color: "white",
               }}
             >
               Certificates
+            </CustomLink>
+            <CustomLink
+              to={"/about"}
+              activeStyle={{
+                color: "white",
+              }}
+            >
+              About
             </CustomLink>
           </ul>
         </nav>

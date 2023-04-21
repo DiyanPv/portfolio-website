@@ -14,7 +14,7 @@ export const ProjectCards = () => {
       bgImage={true}
       isProjects={true}
     >
-      <div className="flex flex-row flex-wrap items-center justify-center pt-16 mb-16 h-fit">
+      <div className="flex flex-row flex-wrap items-center justify-center pt-16 mb-16 h-fit fadeTopMini">
         {Projects.map((el) => {
           return (
             <ProjectCard
@@ -36,7 +36,7 @@ export const ProjectCards = () => {
 export const CertificationCards = () => {
   return (
     <BasicWrapper pageTitle="Certifications">
-      <div className="flex flex-row flex-wrap items-center justify-center pt-24 h-fit mb-8 mt-8">
+      <div className="flex flex-row flex-wrap items-center justify-center pt-24 h-fit mb-8 mt-8 fadeRightMini">
         {Certifications.map((certificate) => (
           <CertificationCard
             name={certificate.name}
