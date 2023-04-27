@@ -2,7 +2,7 @@ import "./App.css";
 import { Home } from "./pages/main/Home";
 import { Certificates } from "./pages/certificates/Certificates";
 import { Projects } from "./pages/projects/Projects";
-import { About } from "./pages/about/About.jsx";
+import { About } from "./pages/about/About";
 import { Routes, Route } from "react-router-dom";
 
 function App() {
