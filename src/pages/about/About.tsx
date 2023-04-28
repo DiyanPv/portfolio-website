@@ -9,7 +9,7 @@ export const About = () => {
     linkedin,
   }: IContactDetails) => {
     return (
-      <div className="flex font-bold mt-10 justify-between sm:text-xs">
+      <div className="flex font-bold mt-10 justify-between smallfont">
         <div>
           <div className="flex flex-col">
             <h2 className="skyblue">Name</h2>
