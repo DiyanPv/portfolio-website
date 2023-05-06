@@ -72,8 +72,8 @@ export const Header = () => {
       >
         {isNavOpen ? <MiniNav /> : <HiMenuAlt4 fontSize={32} />}
       </div>
- 
-      <div className="flex pt-2 text-black items-center fixed top-0 z-50 bg-gray-800 pb-2 navbar w-full">
+
+      <div className="flex pt-2 text-black items-center fixed top-0 z-50 bg-slate-500 pb-2 navbar w-full">
         <div className="flex grow font-bold ml-10 ">
           <CustomLink to={"/"} activeStyle={{ color: "white" }}>
             Home
