@@ -1,6 +1,7 @@
 import React from "react";
 import { Header } from "../../components/Layout/Header/Header";
 import { IContactDetails } from "../../interfaces/IContactDetails";
+import { index } from "../../assets/index";
 export const About = () => {
   const ContactDetails = ({
     name,
@@ -46,7 +47,9 @@ export const About = () => {
       <Header />
       <div className=" flex justify-between">
         <div className="flexgrow ">
-          <h1>aa</h1>
+          <div className="flex justify-center items-center h-full">
+            <img src={index.coding} alt="" className="w-[83%]" />
+          </div>
         </div>
         <div className="flexgrow mr-10 flex justify-center flex-col h-screen">
           <p className="font-mono text-2xl sm:text-xs">
