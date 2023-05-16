@@ -48,7 +48,7 @@ export const About = () => {
       <div className=" flex justify-between">
         <div className="flexgrow ">
           <div className="flex justify-center items-center h-full">
-            <img src={index.coding} alt="" className="w-[83%]" />
+            <img src={index.coding} alt="" className="h-[90vh]" />
           </div>
         </div>
         <div className="flexgrow mr-10 flex justify-center flex-col h-screen">
