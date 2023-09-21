@@ -18,6 +18,7 @@ import hardhat from "./Technologies/hardhat.svg";
 import wavybg from "./extras/dian7.jpg"
 import nextjs from "./Technologies/nextjs.svg";
 import coding from "./extras/coding.webp"
+
 export const index = {
   coding,
   banner,

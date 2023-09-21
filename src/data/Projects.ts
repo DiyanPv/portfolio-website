@@ -54,5 +54,13 @@ export const Projects: any[] = [
     date: "27.02.2023",
     sourceCode: `https://github.com/DiyanPv/nexo-fe-task`,
     liveDemo: "https://nexo-fe-task.vercel.app/",
+  },  {
+    name: `The Shoe Stop`,
+    image: images.theshoestop,
+    description:
+      "An eccomerce website in which you can order different types of shoes from which you can sort by price/alphabetical or filter by price/color/gender. You also have a cart and a load more button functionality.",
+    date: "10.08.2023",
+    sourceCode: `https://github.com/DiyanPv/TheShoeStop`,
+    liveDemo: "https://the-shoe-stop.vercel.app/",
   },
 ];
