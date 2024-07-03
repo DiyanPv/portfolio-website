@@ -53,7 +53,9 @@ export const About = () => {
         </div>
         <div className="flexgrow mr-10 flex justify-center flex-col h-screen">
           <p className="font-mono text-2xl sm:text-xs">
-            Hi, my name is Diyan. I am a front-end developer using React and I
+            Hi, my name is Diyan. I am a web developer and actively studying DevOps. 
+            
+    I
             am very passionate and dedicated to my work. I enjoy designing
             websites and creating custom solutions for clients in an effective
             manner.
