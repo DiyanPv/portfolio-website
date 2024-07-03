@@ -29,4 +29,6 @@ export const Certifications = [
   { name: "name", img: certificates.diyanresponsiveweb, url: `` },
   
   { name: "name", img: certificates.diyanfccalgorithms, url: `` },
+  { name: "name", img: certificates.udemyDevOps, url: `https://www.udemy.com/certificate/UC-6666066d-6a5e-47ff-8b5b-1d4b5d65fd9e/` },
+  
 ];
