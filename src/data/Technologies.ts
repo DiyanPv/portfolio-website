@@ -1,6 +1,23 @@
 import { index } from "../assets/index.js";
 export const Technologies: any[] = [
   {
+    name: `Linux`,
+    image: index.linux,
+  },
+  {
+    name: `Jenkins`,
+    image: index.jenkins,
+  }, {
+    name: `Kubernetes`,
+    image: index.kubernetes,
+  }, {
+    name: `AWS`,
+    image: index.aws,
+  }, {
+    name: `Docker`,
+    image: index.docker,
+  }, 
+  {
     name: `Tailwind`,
     image: index.tailwind,
   },
@@ -56,21 +73,5 @@ export const Technologies: any[] = [
     name: `CSS`,
     image: index.css,
   },
-  {
-    name: `Linux`,
-    image: index.linux,
-  },
-  {
-    name: `Jenkins`,
-    image: index.jenkins,
-  }, {
-    name: `Kubernetes`,
-    image: index.kubernetes,
-  }, {
-    name: `AWS`,
-    image: index.aws,
-  }, {
-    name: `Docker`,
-    image: index.docker,
-  },
+
 ];
