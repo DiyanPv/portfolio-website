@@ -5,7 +5,7 @@ import udemyNode from "./udemy-node.jpg";
 import udemyBootcamp from "./udemy-bootcamp.jpg";
 import diyanresponsiveweb from "./diyan-fcc-responsive-web.png";
 import diyanfccalgorithms from "./diyan-fcc-data-algorithms.png";
-import udemyDevOps from "./udemyDevOps";
+import udemyDevOps from "./udemy-devops.jpg";
 export const certificates = {
   softuniBasics,
   softuniFundamentals,
