@@ -26,16 +26,11 @@ export const Technologies: any[] = [
     name: `MongoDB`,
     image: index.mongodb,
   },
-  { name: `Hardhat`, image: index.hardhat },
-
   {
     name: `Solidity`,
     image: index.solidity,
   },
-  {
-    name: `EthersJS`,
-    image: index.ethers,
-  },
+
   {
     name: `React`,
     image: index.React,
@@ -60,5 +55,22 @@ export const Technologies: any[] = [
   {
     name: `CSS`,
     image: index.css,
+  },
+  {
+    name: `Linux`,
+    image: index.linux,
+  },
+  {
+    name: `Jenkins`,
+    image: index.jenkins,
+  }, {
+    name: `Kubernetes`,
+    image: index.kubernetes,
+  }, {
+    name: `AWS`,
+    image: index.aws,
+  }, {
+    name: `Docker`,
+    image: index.docker,
   },
 ];

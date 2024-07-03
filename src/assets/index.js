@@ -18,11 +18,19 @@ import hardhat from "./Technologies/hardhat.svg";
 import wavybg from "./extras/dian7.jpg"
 import nextjs from "./Technologies/nextjs.svg";
 import coding from "./extras/coding.webp"
-
+import aws from "./Technologies/aws.svg"
+import kubernetes from "./Technologies/kubernetes.svg"
+import jenkins from "./Technologies/jenkins.svg"
+import linux from "./Technologies/linux.svg"
+import docker from "./Technologies/docker.svg"
 export const index = {
+  docker,
+  linux,
+  jenkins,
+  kubernetes,
+  aws,
   coding,
   banner,
-  hardhat,
   banner03,
   wavybg,
   css,
