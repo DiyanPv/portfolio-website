@@ -1,7 +1,11 @@
 import { certificates } from "../assets/Certificates/certificates";
 
 export const Certifications = [
- 
+  {
+    name: "name",
+    img: certificates.udemyDevOps,
+    url: `https://www.udemy.com/certificate/UC-6666066d-6a5e-47ff-8b5b-1d4b5d65fd9e/`
+  },
   {
     name: "name",
     img: certificates.udemyReact,
@@ -17,8 +21,8 @@ export const Certifications = [
     img: certificates.udemyBootcamp,
     url: `https://www.udemy.com/certificate/UC-47d18b9b-d8cb-4fed-ac06-2c1b61809184/`,
   },
-  
-  { name: "name", img: certificates.udemyDevOps, url: `https://www.udemy.com/certificate/UC-6666066d-6a5e-47ff-8b5b-1d4b5d65fd9e/` },
+
+
 
   {
     name: "name",

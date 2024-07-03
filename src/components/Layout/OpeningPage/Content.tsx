@@ -20,7 +20,7 @@ export const Content = () => {
         <div
           className={`text-gray-300 lg:text-base md:text-sm sm:text-xs flex justify-center items-center font-semibold `}
         >
-          Web Developer | DevOps
+          | DevOps | Web Developer 
         </div>
         <div className="flex flex-row justify-center mt-2">
           <a
