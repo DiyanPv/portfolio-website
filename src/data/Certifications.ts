@@ -22,8 +22,6 @@ export const Certifications = [
     url: `https://www.udemy.com/certificate/UC-47d18b9b-d8cb-4fed-ac06-2c1b61809184/`,
   },
 
-
-
   {
     name: "name",
     img: certificates.softuniBasics,
@@ -33,9 +31,11 @@ export const Certifications = [
     name: "name",
     img: certificates.softuniFundamentals,
     url: `https://softuni.bg/certificates/details/141482/a54c6c57`,
+    
   },
+  { name: "name", img: certificates.diyancontainersandcloud, url: `https://softuni.bg/certificates/details/224782/36c30466` },
+
   { name: "name", img: certificates.diyanresponsiveweb, url: `` },
 
   { name: "name", img: certificates.diyanfccalgorithms, url: `` },
-
 ];
